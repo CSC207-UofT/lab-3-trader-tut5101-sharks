@@ -23,8 +23,6 @@ public class Dragon implements Drivable, Tradable {
     public void downgradeSpeed() {
         this.maxSpeed -= 200;
 
-        void downgradeSpeed();
-
     /**
      * Return the maximum speed of this Vehicle.
      *
