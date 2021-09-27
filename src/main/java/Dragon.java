@@ -22,11 +22,12 @@ public class Dragon implements Drivable, Tradable {
     @Override
     public void downgradeSpeed() {
         this.maxSpeed -= 200;
+    }
 
     /**
      * Return the maximum speed of this Vehicle.
      *
-     * @return    The current maximum speed of this Vehicle.
+     * @return The current maximum speed of this Vehicle.
      **/
 
     @Override
@@ -34,12 +35,15 @@ public class Dragon implements Drivable, Tradable {
         return this.maxSpeed;
     }
 
-    /** The following implements the Tradable interface **/
+    /**
+     * The following implements the Tradable interface
+     **/
 
     @Override
     public int getPrice() {
         return 6000;
     }
+}
 
 
 
