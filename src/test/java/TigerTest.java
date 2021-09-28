@@ -8,7 +8,7 @@ public class TigerTest {
 
     @Before
     public void SetUp(){
-        t = new Tiger(10, "Asia", 50);
+        t = new Tiger();
     }
 
     @Test(timeout = 25)
